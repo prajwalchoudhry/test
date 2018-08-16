@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+
+</head>
+
+<style>
+    
+
+    html {
+        background-color: black;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #00aeef 15%, black 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #00aeef 15%, black 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #00aeef 15%, black 85%);
+        background-image: url("images/overlay.png"), linear-gradient(45deg, #00aeef 15%, black 85%);
+        
+    }
+    @media (min-width: device-width){
+
+        body { 
+            zoom: 50%;
+    }
+
+        }
+        
+
+    
+
+    .box {
+
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    #atlas-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding-bottom: 10px;
+    }
+
+    #form-title {
+        font-size: 1.5em;
+        border-bottom: 1px dotted; 
+        
+    }
+
+    .form-width{ 
+        width: 660px;
+    }
+
+    .textarea { 
+        width: 660px;
+    }
+
+    .button { 
+        width: 660px;
+        transition: all ease-in .2s;
+    }
+
+    .button:hover { 
+        
+        transform: scale(1.02);
+    }
+
+    .level { 
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+
+    
+ 
+</style>
+
+<body id="">
+
+    <div class="box is-flex-mobile">
+
+       <div id="atlas-logo">
+            <figure><img src='logo.png' width="200px" height="auto"></figure>
+
+       </div>
+                
+
+        <div class="level">
+            <div class="level-item has-text-centered">
+                <h1 id="form-title"><strong>Fall 2018 Application</strong></h1>
+            </div>
+        </div>
+
+        <div class="level">   
+            <div class="field">
+                <label class="label">Name:</label>
+                    <div class="control">
+                        <input class="input form-width" type="text" placeholder="Ex: John Doe">
+                </div>
+            </div>
+        </div>
+
+        <div class="level">   
+                <div class="field">
+                    <label class="label">Uniqname:</label>
+                        <div class="control">
+                            <input class="input form-width" type="text" placeholder="First and Last">
+                    </div>
+                </div>
+            </div>
+
+     
+        <div class="level">  
+        <div class="control">
+             <label class="label">Expected Year of Graduation:</label>
+                <div class="select">
+                    <select class="form-width">
+                        <option>Select Year</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+        </div>
+    </div>
+
+
+        <div class="level">   
+                <div class="">
+                    <label class="label">Expected / Declared Major:</label>
+                        <div class="">
+                            <input class="input form-width" type="text" placeholder="Expected / Declared Major:">
+                    </div>
+                </div>
+            </div>
+
+            <div class="level">   
+                    <div class="">
+                        <label class="label">GPA</label>
+                            <div class="">
+                                <input class="input form-width" type="text" placeholder="Ex: 3.9/4.0">
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="level">  
+                    <div class="control">
+                         <label class="label">How did you hear about ATLAS?</label>
+                            <div class="select">
+                                <select class="form-width">
+                                    <option>Select Option</option>
+                                    <option>Email</option>
+                                    <option>Facebook</option>
+                                    <option>Meet the Clubs</option>
+                                    <option>Referral</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">If you chose other, how did you hear about ATLAS?</label>
+                                <div class="">
+                                    <input class="input form-width" type="text" placeholder="First Name and Last Name">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">If you were referred to ATLAS, by whom were you referred?</label>
+                                <div class="">
+                                    <input class="input form-width" type="text" placeholder="First Name and Last Name">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">If you have a LinkedIn account, please submit a link to your profile here:</label>
+                                <div class="">
+                                    <input class="input form-width" type="text" placeholder="First Name and Last Name">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">If you have a LinkedIn account, please submit a link to your profile here:</label>
+                                <div class="">
+                                    <input class="input form-width" type="text" placeholder="">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Are there any skills you have that you think would benefit Atlas Consulting?</label>
+                                <div class="">
+                                        <textarea class="textarea" placeholder="Please enter your response here."></textarea>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Tell us about a time that you worked well with a team (~250 words).</label>
+                                <div class="">
+                                        <textarea class="textarea" placeholder="Please enter your response here."></textarea>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Why do you want to do consulting? (~250 words)</label>
+                                <div class="">
+                                        <textarea class="textarea" placeholder="Please enter your response here."></textarea>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Please list your current commitments and engagements:</label>
+                                <div class="">
+                                        <textarea class="textarea" placeholder="Please enter your response here."></textarea>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Resume:</label>
+                                <div class="">
+                                        <button class="button is-link">Choose File</button>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label">Headshot:</label>
+                                <div class="">
+                                        <button class="button is-link">Choose File</button>
+                            </div>
+                        </div>
+                </div>
+
+
+
+                <div class="level">   
+                        <div class="">
+                            <label class="label"> </label>
+                                <div class="">
+                                        <button class="button is-success">Submit</button>
+                            </div>
+                        </div>
+                </div>
+
+
+       
+
+    </div>
+</body>
+
+
+
+</html>
